@@ -16,7 +16,9 @@ config:
     gin: '*'
     gin_login: '*'
   actions:
+    gin.settings:
+      simple_config_update:
+        classic_toolbar: horizontal
     system.theme:
       simple_config_update:
         admin: gin
-        classic_toolbar: horizontal
