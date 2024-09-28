@@ -3,8 +3,10 @@
     "type": "drupal-recipe",
     "description": "Sets up a nice administrative theme and navigation.",
     "require": {
+        "drupal/admin_toolbar": "^3.0",
         "drupal/core": ">=10.3",
         "drupal/gin": "^3-rc11",
+        "drupal/gin_login": "^2.0.3",
         "drupal/gin_toolbar": "^1-rc6"
     }
 }

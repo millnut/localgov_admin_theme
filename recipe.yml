@@ -3,12 +3,18 @@ type: LocalGov Drupal
 description: Sets up a nice administrative theme and navigation.
 
 install:
+  - admin_toolbar
+  - admin_toolbar_tools
   - gin
+  - gin_login
   - gin_toolbar
   - help
 config:
   import:
+    admin_toolbar: '*'
+    admin_toolbar_tools: '*'
     gin: '*'
+    gin_login: '*'
   actions:
     system.theme:
       simple_config_update:
